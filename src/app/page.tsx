@@ -1,9 +1,9 @@
-import Image from "next/image"
+import { Header } from "@/components/header"
 
 export default function Home() {
   return(
-    <div>
-      <Image priority src="/favicon.svg" alt="text" width={64} height={64}/>
+    <div className="w-screen h-screen flex flex-col bg-red-200">
+      <Header />
     </div>
   )
 }
